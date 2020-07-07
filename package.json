@@ -1,0 +1,13 @@
+{
+  "name": "symcli",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "sym": "./index.js"
+  },
+  "dependencies": {
+    "command-exists": "^1.2.9",
+    "inquirer": "^7.3.0"
+  }
+}
