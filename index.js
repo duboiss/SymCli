@@ -10,6 +10,7 @@ commands.checkNeededCommands();
 const run = async () => {
     const config = await inquirer.askProjectDetails();
     project.init(config);
+    console.log(`Project ready ! in ./${config.title}`);
 };
 
 run();
